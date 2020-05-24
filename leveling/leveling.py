@@ -145,12 +145,9 @@ class Leveling(Cog):
 
             return await ctx.send(embed=embed)
 
-        if amount < 1:
-            embed = Embed(
-                title="Leveling",
-                url="https://github.com/papiersnipper/modmail-plugins/blob/master/leveling",
-                description="I can't give negative gold.",
-                color=self.bot.main_color,
+        
+
+
             )
 
             return await ctx.send(embed=embed)
