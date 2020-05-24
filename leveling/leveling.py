@@ -216,7 +216,7 @@ class Leveling(Cog):
 
             return await ctx.send(embed=embed)
 
-        if amount < 1:
+        if amount = 1:
             embed = Embed(
                 title="Leveling",
                 url="https://github.com/papiersnipper/modmail-plugins/blob/master/leveling",
