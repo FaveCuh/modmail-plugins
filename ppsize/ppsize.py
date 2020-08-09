@@ -6,7 +6,7 @@ class pp(commands.Cog):
         self.bot = bot
 
     @commands.command(aliases=['pp'])
-    async def penis(ctx, member: discord.Member=None):
+    async def penis(self, ctx, member: discord.Member=None):
         pps = [
             '8==D',
             '8===D',
