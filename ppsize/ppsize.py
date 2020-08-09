@@ -23,7 +23,7 @@ class pp(commands.Cog):
         ]
         if not member:
             member = ctx.author
-            maincolor = 0xFF4136
+        maincolor = 0xFF4136
         ppSize = random.choice(pps)
         embed = discord.Embed(description=f"{ppSize}", color=maincolor)
         embed.set_author(name=f"{member.display_name}'s Penis:")
