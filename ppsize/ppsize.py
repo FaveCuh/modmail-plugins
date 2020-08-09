@@ -9,6 +9,8 @@ class pp(commands.Cog):
     @commands.command(aliases=['pp'])
     async def penis(self, ctx, member: discord.Member=None):
         pps = [
+            '8D'
+            '8=D'
             '8==D',
             '8===D',
             '8====D',
@@ -17,6 +19,7 @@ class pp(commands.Cog):
             '8=======D',
             '8========D',
             '8=========D'
+            '8===============D'
         ]
         if not member:
             member = ctx.author
